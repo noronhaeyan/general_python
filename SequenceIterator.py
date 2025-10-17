@@ -13,3 +13,12 @@ class SequenceIterator:
             return item
         else:
             raise StopIteration
+
+
+if __name__ == "__main__":
+    # Example usage
+    my_list = [1, 2, 3, 4, 5]
+    iterator = SequenceIterator(my_list)
+    
+    for item in iterator:
+        print(item)
